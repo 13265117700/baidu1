@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-size: 12px;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header{
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: right ;
+    height: 43px;
+}
+
+.page-header nav a{
+    line-height: 30px;
+    font-size: 13px;
+    margin-left: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.page-header nav a:last-child{
+    display: inline-block;
+    width: 60px;
+    height: 23px;
+    background-color:#38f;
+    color: #fff;
+    text-align: center;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.page-mainer{
+    flex: 1;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.form-container{
+    margin-top: 22px;
+    font-size: 0;
+    
+}
+
+.page-mainer .logo{
+    width: 270px;
+    height: 130px;
+}
+
+form{
+    display: flex;
+    width: 642px;
+    margin: 0 auto;
+}
+.form-search{
+    width: 540px;
+    height: 34px;
+}
+
+.submit-btn{
+    width: 100px;
+    height: 34px;
+    font-size: 15px;
+    background-color: #3385ff;
+    color: #fff;
+    display: inline-block;
+    line-height: 34px;
+    border: 1px solid #3385ff;
+}
+
+.page-footer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer-info{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-info a{
+    color: #999;
+    padding-right: 15px;
+}
